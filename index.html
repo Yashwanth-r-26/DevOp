@@ -1,9 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>hi</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Lamborghini Hero Section</title>
 </head>
 <body>
-    <p>hello!</p>
+    <div class="hero">
+        <video autoplay muted loop id="bg-video">
+            <source src="video.webm" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        
+        <div class="content">
+            <h1 id="lamborghini-text">Lamborghini</h1>
+            <p>Experience the power and elegance</p>
+            <a href="#" class="cta-btn">Discover More</a>
+        </div>
+        <audio id="engine-sound" src="sound.mp3" preload="auto"></audio>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
